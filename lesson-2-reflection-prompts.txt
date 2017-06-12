@@ -8,18 +8,35 @@ What value do you think it offers?
 
 A: Staging Area allows you to "stage" the changed files. So you can form a 1 logical change per commit.
 Working Directory is where files in the normal project dir. Repo is when groups of files, their changes in
-meta data is tracked. Repo contains the commits logically. 
+meta data is tracked. Repo contains the commits logically.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+A: Get all the changed files right and together into STAGING, before I then COMMIT the entire change.
+Which could be 1 or more files. COMMIT is a single logical change, no matter how many files.
+Get it right, test it and put into STAGING before I COMMIT !!!
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+A: When creating different versions or flavours, experimental versions etc. Allow me to
+create a new branch to make specific changes, I can then merge back in with changes on the
+master branch later if I want to. I can have many versions.
+
 How do the diagrams help you visualize the branch structure?
+
+A: Nice to draw a picture of the BRANCHES, helps me understand the linkages between commits on BRANCHES.
+Then I know which COMMITS in which BRANCHES.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+A: Result is a commit being the combined commits that are the tips of both branches combined. Merged branch is in
+one or the other of the merged branches eg. merged back into master.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+A: Gits auto merging is great, but limited. I still need to manually merge code if there is ANY ambiguity.
+Which often happens when Devs work on same bits of code.
