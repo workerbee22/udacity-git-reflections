@@ -34,4 +34,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    A: Almost always when collaborating, allows me to do my changes, yet
+    still bring in other Dev changes into the local origin/master. I can then
+    merge other changes in master into my branch and then push to GitHub,
+    for someone to review and merge into master. 
